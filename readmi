@@ -1,0 +1,27 @@
+# 🏢 Sistema SGD - Sistema de Gestión
+
+Sistema web para la gestión de usuarios y productos, desarrollado con PHP, MySQL y Bootstrap 5.
+
+##  Tecnologías utilizadas
+
+- **Backend:** PHP 8.2 con PDO
+- **Base de datos:** MySQL / MariaDB
+- **Frontend:** Bootstrap 5 + Bootstrap Icons
+- **Servidor local:** XAMPP
+
+## 📋 Características
+
+- ✅ Login seguro con sesiones
+- ✅ Dashboard con estadísticas en tiempo real
+- ✅ CRUD completo de Usuarios (crear, leer, actualizar, eliminar)
+- ✅ CRUD completo de Productos con categorías
+- ✅ Buscador en tiempo real
+- ✅ Diseño responsive (funciona en móviles y PC)
+- ✅ Protección contra inyección SQL (PDO con prepared statements)
+- ✅ Protección contra XSS (htmlspecialchars)
+
+## 🛠️ Instalación
+
+1. Clona este repositorio en tu carpeta `htdocs` de XAMPP:
+   ```bash
+   git clone git@github.com:jmartisa/sistema-gestion-usuarios.git
